@@ -70,7 +70,7 @@
     <el-table-column
     prop = "id"
       label="id">
-      <<template slot-scope="scope">
+      <template slot-scope="scope">
             <template>
             <el-input v-show="scope.row.edit" v-model="scope.row.id" disabled></el-input>
             <span v-show = "!scope.row.edit">{{ scope.row.id}}</span>
